@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main {
+    margin: 0 auto;
+    position: relative;
+}
+
+#index_img {
+    margin: 0 auto;
+    height: 632px;
+    width: 100%;
+}
+
+.ul-side {
+    list-style: none;
+}
+
+.sidebar {
+    background: rgba(166, 183, 181, 0.05);
+    width: 200px;
+    height: 500px;
+    position: fixed;
+    top: 0;
+    margin-top: 50px;
+    display: none;
+}
+
+.li-sidebar {
+    border-radius: 15px 50px;
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: rgba(32, 210, 116, 0.09);
+    text-shadow: 5px 5px 5px rgba(103, 46, 29, 0.59);
+    margin-bottom: 10px;
+    transform: rotate(30deg);
+    box-shadow: 6px 5px 5px #888888;
+    position: relative;
+    top: 50px;
+    margin-top: 10px;
+}
+
+.li-sidebar:hover {
+    background-color: rgba(57, 228, 153, 0.2);
+    ;
+    text-align: center;
+    box-shadow: 6px 8px 4px #888888;
+}
+
+#min_tips {
+    width: 50px;
+    height: 35px;
+    position: fixed;
+    top: 10px;
+    left: 50px;
+    margin: 5px;
+
+}
+
+.a_sidebar {
+    color: white;
+    display: block;
+    position: absolute;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.a_sidebar:hover {
+    color: orangered;
+}
+
+.a_tips {
+    font-size: 26px;
+    color: rgba(108, 108, 199, 0.6);
+}
+
+.a_tips:hover {
+    color: cornflowerblue;
+}
+.div-footer{
+	width: 100%;
+	height: 35px;
+	position: absolute;
+	background: rgba(255,255,255,0.04);
+	bottom: 0;
+	text-align: center;
+}

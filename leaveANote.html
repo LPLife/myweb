@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
+        <title></title>
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/note.css" />
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/note.js" ></script>
+    </head>
+    <body>
+        <div class="main">
+            <img src="img/Note/note_1.jpg" id="index_img"  />
+            <div id="min_tips">
+                <a href="" class="a_tips"><span class="glyphicon glyphicon-tasks"></span></a>
+            </div>
+
+            <div class="sidebar">
+
+                <ul class="ul-side">
+                    <li class="li-sidebar">
+                        <a href="index.html" class="a_sidebar"><span class="glyphicon  glyphicon-home"></span>&nbsp;首页</a>
+                    </li>
+                    <li class="li-sidebar">
+                        <a href="login.html" class="a_sidebar"><span class="glyphicon glyphicon-user"></span>&nbsp;登录</a>
+                    </li>
+                    <li class="li-sidebar">
+                        <a href="register.html" class="a_sidebar"><span class="glyphicon glyphicon-pencil"></span>&nbsp;注册</a>
+                    </li>
+                    <li class="li-sidebar">
+                        <a href="" class="a_sidebar"><span class="glyphicon glyphicon-picture"></span>&nbsp;相册</a>
+                    </li>
+                    <li class="li-sidebar">
+                        <a href="javascript:void(0);" class="a_sidebar"><span class="glyphicon glyphicon-comment"></span>&nbsp;留言板</a>
+                    </li>
+                    <li class="li-sidebar">
+                        <a href="" class="a_sidebar"><span class="glyphicon glyphicon-leaf"></span>&nbsp;慢生活</a>
+                    </li>
+                    <li class="li-sidebar">
+                        <a href="" class="a_sidebar"><span class="glyphicon glyphicon-globe"></span>&nbsp;游客登录</a>
+                    </li>
+                    <li class="li-sidebar">
+                        <a href="" class="a_sidebar"><span class="glyphicon glyphicon-hand-right"></span>&nbsp;帮助</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="leave"> 
+            	<h4 class="h-leaf">给我留言?</h4>
+            	    <textarea rows="3" cols="70" class="text-note" maxlength="150"> </textarea><span class="text-size">150</span> <button class="note-btn">留言</button><br /> <span class="Tmessage"></span>
+               <div class="list-note">
+               	   <ul class="ul-list">
+               	   	
+               	   </ul>
+               	   <div >
+               	   <p class="pagelist">
+               	   	
+               	   </p>
+               	   </div>
+               	   
+               </div>
+               <div class="mark">
+               	<div class="close">
+               	<a  class="a_close"><span class="glyphicon glyphicon-remove"></span></a>
+               	</div>
+               	<br />
+               	<h4 class="h-leaf">请输入完整的信息在进行留言!</h4>
+               	<ul class="ul-note">
+               		
+               		<li class="li-note"><label for="name" class="label-note">昵称:</label><input type="text" id="name" value="" class="in-leave" /><span class="message"></span></li>
+               		<li class="li-note"><label class="label-note" for="email">邮箱:</label><input type="email" name="email" id="email" value=""  class="in-leave"/> <span class="Emessage"></span></li>
+               		<li class="li-note"><button class="leave-btn">确定</button><br><span class="Btnmessage"></span></li>
+               	</ul>
+                   
+               </div>
+               
+            <!--删除start-->
+            <div class="d-note">
+   	<div class="close">
+               	<a  class="a_close4"><span class="glyphicon glyphicon-remove"></span></a>
+               	</div>
+               	<br />
+               	<h4 class="h-leaf">确定要删除这条留言吗?</h4>
+               	<div class="yn-btn">
+               	<button class="n-btn">取消</button>
+               	<button class="y-btn">确定</button><br />
+               	<span class="DBmessage"></span>
+               	</div>
+            </div>
+            <!--删除end-->
+               <div class="page-mark">
+               	  
+               </div>
+               <!--更新-->
+                <div class="u-note">
+                	<div class="close">
+               	<a  class="a_close5"><span class="glyphicon glyphicon-remove"></span></a>
+               	</div>
+               	<h4 class="h-leaf">更新留言信息?</h4>
+                	    <textarea rows="3" cols="70" class="text-Unote" maxlength="150"> </textarea><span class="text-Usize">150</span> 
+                	    <button class="n-ubtn">取消</button>
+                	    <button class="y-ubtn">更新</button><br /><span class="UBmessage"></span>
+                </div>
+               
+            </div>
+            <div class="div-footer">
+                <footer>
+                    <span>Copyright &copy;个人网站</span>
+                </footer>
+            </div>
+        </div>
+    </body>
+
+</html>

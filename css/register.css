@@ -1,0 +1,49 @@
+
+.register{
+	width: 50%;
+	height: 450px;
+	background-color:rgba(227, 241, 214, 0.5);
+	position:absolute;
+	top: 90px;
+	left: 400px;
+	box-shadow: 0px 0px 30px rgba(35, 35, 30, 0.6);
+	text-align: center;
+}
+
+.ul-register{
+	width:550px;
+	list-style: none;
+	margin-top:90px ;
+	text-align: left;
+	position:absolute;
+	left:90px;
+
+}
+.li-register{
+	margin-left:130px;
+	margin-bottom: 20px;
+	outline: none;
+	position:relative;
+	margin-left:20px;
+}
+.in-register{
+	width:200px;
+	height:25px;
+	border-radius:4px ;
+	border: inherit;
+	margin-top:1px;
+
+}
+.label-register,#btn-register,.a-register{
+	font-size: 1.2em;
+	font-family: "courier new";
+}
+.li-register:last-child{
+	left:65px;
+}
+span.Pmessage,span.message,span.Bmessage{
+	color: red;
+	font-family: "courier new";
+	font-size: 1.1em;
+}
+

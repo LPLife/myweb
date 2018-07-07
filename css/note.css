@@ -1,0 +1,141 @@
+.leave {
+    width: 1000px;
+    height: 1000px;
+    background-color: rgba(227, 241, 214, 0.5);
+    position: absolute;
+    top: 30px;
+    left: 220px;
+    box-shadow: 0px 0px 30px rgba(35, 35, 30, 0.6);
+    text-align: center;
+    margin: auto 0;
+}
+
+#index_img {
+    margin: 0 auto;
+    height: 1300px;
+    width: 1348px;
+}
+
+.mark {
+    width: 625px;
+    height: 350px;
+    margin: 0;
+    background-color: rgba(243, 242, 243, 0.87);
+    position: absolute;
+    top: 30px;
+    left: 165px;
+    display: none;
+}
+
+.ul-note {
+    list-style: none;
+    text-align: left;
+    margin-top: 95px;
+}
+
+.li-note {
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.in-leave {
+    outline: none;
+    width: 180px;
+}
+
+.label-note:hover {
+    color: orangered;
+}
+
+.li-note:last-child {
+    text-align: center;
+}
+
+.a_close {
+    color: black;
+}
+
+.h-leaf {
+    color: cornflowerblue;
+}
+
+.Tmessage {
+    color: red;
+    font-family: "courier new";
+    font-size: 1.2em;
+}
+
+.list-note {
+    position: absolute;
+    top: 140px;
+    margin-left: 100px;
+    width: 800px;
+    height: 800px;
+    background-color: rgba(237, 231, 245, 0.29);
+}
+.text-note,.text-Unote{
+	outline: none;
+}
+.ul-list {
+    list-style: none;
+}
+
+.span-page,
+.a-page {
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: "courier new";
+    color: blue;
+    position: relative;
+    display: block;
+    float: left;
+    left: 160px;
+}
+
+.page-mark {
+    width: 700px;
+    height: 900px;
+    background-color: rgba(255, 255, 234, 0.6);
+    position: absolute;
+    top: 0;
+    left: 70px;
+    display: none;
+}
+
+.a_close3 {
+    float: right;
+}
+
+.d-note {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 100px;
+    display: none;
+}
+.yn-btn,.y-ubtn,.n-ubtn{
+	position: relative;
+	top:120px;
+	
+}
+.y-btn,.y-ubtn{
+    margin-left:90px;
+}
+.y-btn,.n-btn,.y-ubtn,.n-ubtn{
+    width:80px;
+}
+.page-div{
+	width: 600px;
+}
+.u-note {
+    width: 600px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 100px;
+    display: none;
+}
